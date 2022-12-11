@@ -11,7 +11,7 @@
     $mail ->IsHTML(true);
 
     $mail -> setFrom('infoOP@mail.ru', 'Помощник ТесПО');
-    $mail -> addAddres('bodiudaniil11@gmail.com');
+    $mail -> addAddress('bodiudaniil11@gmail.com');
     $mail -> Subject = "Привет. Тебе письмо";
 
     $body = '<h1>Мега письмо!</h1>';
