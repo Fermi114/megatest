@@ -56,15 +56,12 @@
 	text-decoration: none;
 }
 
-.ZagTema img{
-	height: 30px;
-	width: 30px;
-}
-
 .container{
-	margin: 15px 15% 20px 15%;
 	background-color: rgb(202, 216, 241);
 	padding-bottom: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 15px;
 }
 
 .header__body{
@@ -79,41 +76,46 @@
 .body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: italic;
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-attachment: fixed;
 }
 
 .MainZagolovok{
-	height: 50px;
+	text-align: center;
+	height: 100px;
 	width: 100%;
 	font-style: normal;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 	background-color: rgb(16, 16, 88);
 	color: white;
 	vertical-align: middle;
+}
+
+.MainZagolovok p{
+	padding-top: 25px;
 }
 
 .MainZagolovok1{
 	margin-top: 80px;
-	height: 50px;
+	height: 100px;
 	width: 100%;
+	text-align: center;
 	font-style: normal;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 	background-color: rgb(16, 16, 88);
 	color: white;
 	vertical-align: middle;
 }
 
+.MainZagolovok1 p{
+	padding-top: 25px;
+}
 
 .ZagTema{
-	margin-top: 15px;
-	margin-left: 40%;
-	margin-right: 40%;
-	height: 70px;
-	font-size: 35px;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 90px;
+	font-size: 55px;
 	text-align: center;
 	background-color: rgb(30, 31, 75);
 	color: white;
@@ -140,7 +142,7 @@
 	margin-bottom: 15px;
 	margin-left: 40%;
 	margin-right: 40%;
-	height: 50px;
+	height: 55px;
 	background-color: rgb(54, 84, 138);
 	font-size: 25px;
 	font-weight: bold;
@@ -149,8 +151,351 @@
 	vertical-align: middle;
 }
 
-.insideimage{
-	width: 100%;
+.Yand{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+	background-image: url('../images/14.jpg') ;
+	background-position: top center;
+	background-attachment: fixed;
+	padding-bottom: 25px;
+}
+
+.Yandfont{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+}
+
+.containeryand{
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: rgb(51, 51, 51);
+	padding-bottom: 20px;
+}
+
+.yandcol{
+	color: red;
+}
+
+.MainTextyand{
+	margin-top: 25px;
+	font-family: serif;
+	font-style: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 15%;
+	margin-bottom: 25px;
+	margin-right: 15%;
+	font-size: 25px;
+	text-align: center;
+	color: rgb(207, 203, 203);
+	
+}
+
+.temaimg{
+	height: 40px;
+	width: 40px;
+}
+
+.ZagTemayand{
+	padding-top: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 90px;
+	font-size: 55px;
+	text-align: center;
+	color: white;
+}
+
+.MainTextyand p{
+	border: 3px solid rgb(207, 203, 203);
+	background-color: #6d6d6d;
+}
+
+.ZagSpisyand{
+	margin-left: 15%;
+	margin-right: 65%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color: rgb(207, 203, 203);
+	font-family: serif;
+}
+
+.ZagSpisyand p{
+	border: 3px solid rgb(207, 203, 203);
+}
+
+.spisokyand{
+	font-style: italic;
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: left;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom: 25px ;
+	font-style: oblique;
+	border: 3px solid rgb(207, 203, 203);
+	color: rgb(48, 48, 48);
+	background-color: rgb(179, 179, 179);
+}
+
+.spisokyand li{
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 8px;
+}
+
+.Podzagalovokyand{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 40%;
+	margin-right: 40%;
+	height: 55px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	border: 3px solid rgb(207, 203, 203);
+}
+
+.googl{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+	background-image: url('../images/15.jpg') ;
+	background-position: top center;
+	background-attachment: fixed;
+	padding-bottom: 25px;
+}
+
+.googlfont{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+}
+
+.containergoogl{
+	background-color: rgb(78, 102, 146);
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: 20px;
+}
+
+.googlcol{
+	color: red;
+}
+
+.MainTextgoogl{
+	
+	margin-top: 25px;
+	font-family: serif;
+	font-style: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 15%;
+	margin-bottom: 25px;
+	margin-right: 15%;
+	font-size: 25px;
+	text-align: center;
+}
+
+.ZaginSpisgoogl{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.ZagTemagoogl{
+	padding-top: 15px;
+	margin-top: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 90px;
+	font-size: 55px;
+	text-align: center;
+	color: #c2bfbf;
+}
+
+.MainTextgoogl p{
+	color: rgb(15, 56, 15);
+	background-color: #cfcfcf;
+	border: 3px solid rgb(168, 189, 75);
+}
+
+.ZaginSpisgoogl{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.ZagSpisgoogl{
+	margin-left: 15%;
+	margin-right: 65%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color: rgb(236, 236, 236);
+	font-family: serif;
+}
+
+.ZagSpisgoogl p{
+	color: rgb(192, 190, 190);
+	border: 3px solid rgb(21, 71, 14);
+	background-color: rgb(20, 85, 80);
+}
+
+.spisokgoogl{
+	background-color: #cfcfcf;
+	font-style: italic;
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: left;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom: 25px ;
+	font-style: oblique;
+	border: 3px solid rgb(168, 189, 75);
+	color: rgb(15, 56, 15);
+}
+
+.spisokgoogl li{
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 8px;
+}
+
+.Podzagalovokgoogl{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 40%;
+	margin-right: 40%;
+	height: 55px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(192, 190, 190);
+	vertical-align: middle;
+	border: 3px solid rgb(21, 71, 14);
+	background-color: rgb(20, 85, 80);
+}
+
+.op{
+	height: auto;
+	background-image: url('../images/13.jpg') ;
+	background-position: top center;
+	background-attachment: fixed;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.googlfont{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+}
+
+.containerop{
+	background-color: rgb(206, 208, 211);
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: 20px;
+}
+
+.googlcol{
+	color: red;
+}
+
+.MainTextop{
+	margin-top: 25px;
+	font-family: serif;
+	font-style: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 15%;
+	margin-bottom: 25px;
+	margin-right: 15%;
+	font-size: 25px;
+	text-align: center;
+	color: rgb(212, 202, 202);
+	
+}
+
+.ZagTemaop{
+	padding-top: 15px;
+	margin-top: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 90px;
+	font-size: 55px;
+	text-align: center;
+	color: rgb(49, 48, 48);
+}
+
+.MainTextop p{
+	border: 3px solid  rgb(184, 22, 22);
+	background-color: rgb(150, 19, 19);
+}
+
+.ZaginSpisop{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.ZagSpisop{
+	margin-left: 15%;
+	margin-right: 60%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color: rgb(49, 48, 48);
+	font-family: serif;
+}
+.spisokop{
+	font-style: italic;
+	margin-top: 5px;
+	font-size: 20px;
+	text-align: left;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom: 25px ;
+	font-style: oblique;
+	border: 3px solid  rgb(184, 22, 22);
+	color: rgb(49, 48, 48);
+}
+
+.spisokop li{
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 8px;
 }
 
 .browsers{
@@ -159,7 +504,23 @@
 	background-position: top center;
 	background-attachment: fixed;
 	padding-bottom: 25px;
-	}
+}
+
+.os{
+	height: auto;
+	background-image: url('../images/5.jpg') ;
+	background-position: top center;
+	background-attachment: fixed;
+	padding-bottom: 25px;
+}
+
+.anti{
+	height: auto;
+	background-image: url('../images/12.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	padding-bottom: 25px;
+}
 
 .containerm{
 	max-width: 1180px;
@@ -187,13 +548,14 @@
 .ZagSpis{
 	margin-left: 15%;
 	margin-right: 55%;
-	background-color: rgb(140, 141, 196);
 	margin-top: 25px;
-	margin-bottom: 25px;
-	height: 60px;
+	margin-bottom: 15px;
 	font-size: 25px;
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
+}
+.ZagSpis p{
+	background-color: rgb(140, 141, 196);
 }
 
 .ZaginSpis{
@@ -206,9 +568,9 @@
 }
 
 .containerkont{
-	margin-top: 90px;
-	margin-left: 15%;
-	margin-right: 35%;
+	margin-top: 80px;
+	margin-left: 25%;
+	margin-right: 25%;
 	background-color: rgb(202, 216, 241);
 	padding-bottom: 20px;
 }
@@ -228,6 +590,7 @@
 }
 
 .contacts{
+	margin-top: 15px;
 	display: flex;
 	position: ralative;
 	margin-left: 25%;
@@ -236,14 +599,14 @@
 
 .contacts li{
 	list-style: none;
-	margin-left: 10px;
+	margin-left: 15px;
 	margin-top: 10px;
 }
 
 .ZagTemak{
 	margin-top: 15px;
 	margin-left: 30%;
-	margin-right: 40%;
+	margin-right: 30%;
 	height: 80px;
 	font-size: 35px;
 	text-align: center;
@@ -348,7 +711,7 @@ textarea.form_input{
 	justify-content: center;
 	align-items: center;
 	min-height: 60px;
-	background-color: green;
+	background-color: rgb(80, 45, 114);
 	color: #fff;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -356,14 +719,14 @@ textarea.form_input{
 	font-weight: 700;
 	cursor: pointer;
 	border-radius: 20px;
-	box-shadow: 0 5px 0 rgb(30, 68, 30);
+	box-shadow: 0 5px 0 rgb(43, 25, 61);
 	transition: background-color 0.5s ease 0s;
 	position: relative;
 	top: 0;
 }
 
 .form_button:hover{
-	background-color: rgb(0, 83, 0)
+	background-color: rgb(43, 25, 61);
 }
 
 .form_button:active{
@@ -371,7 +734,7 @@ textarea.form_input{
 	box-shadow: 0 2px 0 rgb(30, 68, 30);
 }
 
-@media (max-width:767px){
+@media (max-width:768px){
 
 	body.lock{
 		overflow: hidden;
@@ -477,7 +840,7 @@ textarea.form_input{
 		margin-left: 25%;
 		margin-right: 25%;
 		height: 75px;
-		font-size: 20px;
+		font-size: 18px;
 		text-align: center;
 		background-color: rgb(30, 31, 75);
 		color: white;
@@ -519,18 +882,19 @@ textarea.form_input{
 		background-color: rgb(140, 141, 196);
 		margin-top: 25px;
 		margin-bottom: 25px;
-		height: 90px;
+		height: 40px;
 		font-size: 20px;
 		font-weight: bold;
 		text-align: left;
 		vertical-align: middle;
 	}
 
+
 	.ZaginSpis{
-		margin-top: 15px;
-		margin-bottom: 5px;
-		height: 45px;
-		font-size: 18px;
+		margin-top: 10px;
+		padding-bottom: 40px;
+		height: 30px;
+		font-size: 16px;
 		font-weight: bold;
 		text-align: left;
 	}
@@ -546,6 +910,376 @@ textarea.form_input{
 		font-style: oblique;
 		border: 2px solid rgb(79, 95, 150);
 		background-color: rgb(193, 190, 218);
+	}
+
+	.containerkont{
+		margin-top: 80px;
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: rgb(202, 216, 241);
+		padding-bottom: 20px;
+	}
+
+	.ZagTemak{
+		margin-top: 15px;
+		margin-left: 10%;
+		margin-right: 10%;
+		height: 80px;
+		font-size: 25px;
+		text-align: center;
+		background-color: rgb(30, 31, 75);
+		color: white;
+	}
+
+	.contacts{
+		display: flex;
+		position: ralative;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.Yand{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		height: auto;
+		background-image: url('../images/14.jpg') ;
+		background-position: top center;
+		background-attachment: fixed;
+		padding-bottom: 25px;
+	}
+	
+	.Yandfont{
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-weight: 100;
+	}
+	
+	.containeryand{
+		margin-left: 5%;
+		margin-right: 5%;
+		background-color: rgb(51, 51, 51);
+		padding-bottom: 20px;
+	}
+	
+	.yandcol{
+		color: red;
+	}
+	
+	.MainTextyand{
+		margin-top: 25px;
+		font-family: serif;
+		font-style: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 35px;
+		padding-right: 35px;
+		margin-left: 5%;
+		margin-bottom: 25px;
+		margin-right: 5%;
+		font-size: 15px;
+		text-align: center;
+		color: rgb(207, 203, 203);
+		
+	}
+	
+	.temaimg{
+		height: 20px;
+		width: 20px;
+	}
+	
+	.ZagTemayand{
+		padding-top: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 60px;
+		font-size: 35px;
+		text-align: center;
+		color: white;
+	}
+	
+	.MainTextyand p{
+		border: 3px solid rgb(207, 203, 203);
+		background-color: #6d6d6d;
+	}
+	
+	.ZagSpisyand{
+		margin-left: 5%;
+		margin-right: 45%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		height: 25px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		color: rgb(207, 203, 203);
+		font-family: serif;
+	}
+	
+	.ZagSpisyand p{
+		border: 3px solid rgb(207, 203, 203);
+	}
+	
+	.spisokyand{
+		font-style: italic;
+		margin-top: 5px;
+		font-size: 15px;
+		text-align: left;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: 25px ;
+		font-style: oblique;
+		border: 3px solid rgb(207, 203, 203);
+		color: rgb(48, 48, 48);
+		background-color: rgb(179, 179, 179);
+	}
+	
+	.spisokyand li{
+		list-style: none;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		margin-left: 8px;
+	}
+	
+	.Podzagalovokyand{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 20%;
+		margin-right: 20%;
+		height: 45px;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+		border: 3px solid rgb(207, 203, 203);
+	}
+	
+	.googl{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		height: auto;
+		background-image: url('../images/15.jpg') ;
+		background-position: top center;
+		background-attachment: fixed;
+		padding-bottom: 25px;
+	}
+	
+	.googlfont{
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-weight: 100;
+	}
+	
+	.containergoogl{
+		background-color: rgb(78, 102, 146);
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-bottom: 20px;
+	}
+	
+	.googlcol{
+		color: red;
+	}
+	
+	.MainTextgoogl{
+		
+		margin-top: 25px;
+		font-family: serif;
+		font-style: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 35px;
+		padding-right: 35px;
+		margin-left: 5%;
+		margin-bottom: 25px;
+		margin-right: 5%;
+		font-size: 15px;
+		text-align: center;
+	}
+	
+	.ZaginSpisgoogl{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		height: 25px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	.ZagTemagoogl{
+		padding-top: 15px;
+		margin-top: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 60px;
+		font-size: 35px;
+		text-align: center;
+		color: #c2bfbf;
+	}
+	
+	.MainTextgoogl p{
+		color: rgb(15, 56, 15);
+		background-color: #cfcfcf;
+		border: 3px solid rgb(168, 189, 75);
+	}
+	
+	.ZagSpisgoogl{
+		margin-left: 5%;
+		margin-right: 45%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		height: 25px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		color: rgb(236, 236, 236);
+		font-family: serif;
+	}
+	
+	.ZagSpisgoogl p{
+		color: rgb(192, 190, 190);
+		border: 3px solid rgb(21, 71, 14);
+		background-color: rgb(20, 85, 80);
+	}
+	
+	.spisokgoogl{
+		background-color: #cfcfcf;
+		font-style: italic;
+		margin-top: 5px;
+		font-size: 15px;
+		text-align: left;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: 25px ;
+		font-style: oblique;
+		border: 3px solid rgb(168, 189, 75);
+		color: rgb(15, 56, 15);
+	}
+	
+	.spisokgoogl li{
+		list-style: none;
+		margin-top: 15px;
+		margin-bottom: 5px;
+		margin-left: 8px;
+	}
+	
+	.Podzagalovokgoogl{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 20%;
+		margin-right: 20%;
+		height: 45px;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		color: rgb(192, 190, 190);
+		vertical-align: middle;
+		border: 3px solid rgb(21, 71, 14);
+		background-color: rgb(20, 85, 80);
+	}
+	
+	.op{
+		height: auto;
+		background-image: url('../images/13.jpg') ;
+		background-position: top center;
+		background-attachment: fixed;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	.googlfont{
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-weight: 100;
+	}
+	
+	.containerop{
+		background-color: rgb(206, 208, 211);
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-bottom: 20px;
+	}
+	
+	.googlcol{
+		color: red;
+	}
+	
+	.MainTextop{
+		margin-top: 25px;
+		font-family: serif;
+		font-style: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 35px;
+		padding-right: 35px;
+		margin-left: 5%;
+		margin-bottom: 25px;
+		margin-right: 5%;
+		font-size: 15px;
+		text-align: center;
+		color: rgb(212, 202, 202);
+		
+	}
+	
+	.ZagTemaop{
+		padding-top: 15px;
+		margin-top: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 60px;
+		font-size: 35px;
+		text-align: center;
+		color: rgb(49, 48, 48);
+	}
+	
+	.MainTextop p{
+		border: 3px solid  rgb(184, 22, 22);
+		background-color: rgb(150, 19, 19);
+	}
+	
+	.ZaginSpisop{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		height: 25px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	.ZagSpisop{
+		margin-left: 5%;
+		margin-right: 45%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		height: 25px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		color: rgb(49, 48, 48);
+		font-family: serif;
+	}
+	.spisokop{
+		font-style: italic;
+		margin-top: 5px;
+		font-size: 15px;
+		text-align: left;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: 25px ;
+		font-style: oblique;
+		border: 3px solid  rgb(184, 22, 22);
+		color: rgb(49, 48, 48);
+	}
+	
+	.spisokop li{
+		list-style: none;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		margin-left: 8px;
+	}
+
+	.MainZagolovok p{
+		padding-top: 5px;
+	}
+
+	.MainZagolovok1 p{
+		padding-top: 5px;
 	}
 }
 
