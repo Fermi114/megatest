@@ -12,6 +12,7 @@
 
     $mail -> setFrom('bodiudaniil11@gmail.com', 'Верстальщик ТесПО');
     $mail -> addAddres('bodiudaniil11@gmail.com');
+    $mail -> Subject = "Привет. Тебе письмо"
 
     $body = '<h1>Мега письмо!</h1>';
 
