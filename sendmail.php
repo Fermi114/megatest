@@ -10,9 +10,9 @@
     $mail -> setLanguage('ru', 'phpmailer/language/');
     $mail ->IsHTML(true);
 
-    $mail -> setFrom('bodiudaniil11@gmail.com', 'Верстальщик ТесПО');
+    $mail -> setFrom('infoOP@mail.ru', 'Помощник ТесПО');
     $mail -> addAddres('bodiudaniil11@gmail.com');
-    $mail -> Subject = "Привет. Тебе письмо"
+    $mail -> Subject = "Привет. Тебе письмо";
 
     $body = '<h1>Мега письмо!</h1>';
 
